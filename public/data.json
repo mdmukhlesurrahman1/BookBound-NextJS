@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "These Silent Woods",
+    "author": "Kimi Cunningham Grant",
+    "description": "A heart-pounding novel about a father and daughter living in isolation and the secrets that threaten their world.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://mpd-biblio-covers.imgix.net/9781250895943.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Foundations of Quantum Physics",
+    "author": "Charles E. Burkhardt",
+    "description": "A comprehensive textbook exploring the fundamental principles of quantum mechanics.",
+    "category": "Science",
+    "available_quantity": 12,
+    "image_url": "https://m.media-amazon.com/images/I/41ZTFHgyiLL._SY445_SX342_FMwebp_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Architecture Patterns with Python",
+    "author": "Harry Percival & Bob Gregory",
+    "description": "Mastering domain-driven design and event-driven architecture using Python.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://images-cdn.bukuext.com/thumbnail?width=400&type=auto&url=https://cdn.bukuext.com/covers/g1xdpmqucfq4pi732br9ouuv7tjfqyteti1y86ai.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The CRISPR Revolution",
+    "author": "Arvin M. Gouw & Ted Peters",
+    "description": "An exploration of the scientific, religious, and ethical implications of gene-editing technology.",
+    "category": "Science",
+    "available_quantity": 15,
+    "image_url": "https://m.media-amazon.com/images/I/51noMSS+kvL._SY445_SX342_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Deep Learning: A Visual Approach",
+    "author": "Andrew Glassner",
+    "description": "A non-mathematical guide to neural networks using intuitive visual explanations.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://m.media-amazon.com/images/I/71+OUSmefxL._SY342_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Midnight in Cairo",
+    "author": "Raphael Cormack",
+    "description": "A vibrant history of the divas and performers who shaped the nightlife of 1920s Egypt.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1592585064i/53990918.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Algorithmic Mind",
+    "author": "Gari Johnson",
+    "description": "Examining the human interface and how we adapt to life alongside artificial intelligence.",
+    "category": "Tech",
+    "available_quantity": 20,
+    "image_url": "https://m.media-amazon.com/images/I/614sexM4a9L._SY385_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Foundations of Quantum Mechanics",
+    "author": "Travis Norsen",
+    "description": "An exploration of the physical meaning of quantum theory through historical and philosophical contexts.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://media.springernature.com/w316/springer-static/cover/book/978-3-319-65867-4.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Rites of the Starling",
+    "author": "Devney Perry",
+    "description": "A captivating fictional story focused on the complexities of small-town relationships.",
+    "category": "Story",
+    "available_quantity": 3,
+    "image_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1762603861i/241058997.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Deep Learning Illustrated",
+    "author": "Jon Krohn",
+    "description": "A visual and interactive guide to artificial intelligence and deep learning networks.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://m.media-amazon.com/images/I/51Td1VGv2UL._SY445_SX342_FMwebp_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Editing Humanity",
+    "author": "Kevin Davies",
+    "description": "The story of CRISPR and the new era of genome editing that is changing science forever.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://m.media-amazon.com/images/I/51XiSa023SL._SY445_SX342_FMwebp_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Presence",
+    "author": "John Hart",
+    "description": "A suspenseful mystery exploring trust, tragedy, and the unknown in a small community.",
+    "category": "Story",
+    "available_quantity": 11,
+    "image_url": "https://i0.wp.com/girlinbluemusic.com/wp-content/uploads/2019/11/presence.jpg"
+  }
+]
