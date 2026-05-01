@@ -1,4 +1,7 @@
 
+export const metadata = {
+  title: "BookBound | My Profile",
+};
 
 const MyProfile = () => {
     return (

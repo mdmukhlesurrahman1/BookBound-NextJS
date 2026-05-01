@@ -2,7 +2,6 @@ import React from "react";
 import {
     FaFacebook,
     FaTwitter,
-    FaInstagram,
     FaLinkedin,
     FaGithub,
     FaEnvelope,
@@ -14,7 +13,6 @@ const Footer = () => {
     return (
         <footer className="bg-base-content text-gray-300 py-12 px-6 lg:px-12">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-                {/* Section 1: Brand & Socials */}
                 <div className="space-y-6">
                     <h3 className="text-white text-2xl font-bold">
                         Connect With Us
@@ -23,7 +21,6 @@ const Footer = () => {
                         {[
                             FaFacebook,
                             FaTwitter,
-                            FaInstagram,
                             FaLinkedin,
                             FaGithub,
                         ].map((Icon, index) => (
@@ -42,7 +39,6 @@ const Footer = () => {
                     </p>
                 </div>
 
-                {/* Section 2: Contact Info */}
                 <div className="space-y-4">
                     <h3 className="text-white text-xl font-semibold">
                         Contact Us
@@ -63,7 +59,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Section 3: Quick Links */}
                 <div className="space-y-4">
                     <h3 className="text-white text-xl font-semibold">
                         Quick Links
@@ -88,7 +83,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Section 4: Newsletter */}
                 <div className="space-y-4">
                     <h3 className="text-white text-xl font-semibold">
                         Newsletter
@@ -109,7 +103,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Bottom Bar */}
             <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-700 text-center text-xs text-gray-500 space-y-2">
                 <p>© 2026 React Solutions Inc. All rights reserved.</p>
             </div>
