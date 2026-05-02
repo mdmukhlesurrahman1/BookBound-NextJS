@@ -1,16 +1,15 @@
 "use client"
 import React from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 const BorrowButton = () => {
-    const notify = () => toast.success("Borrow This Book Successfully!");
+    const successToast = () => toast.success("Borrow This Book Successfully!");
 
     return (
         <div>
-            <button onClick={notify} className="btn btn-primary mt-10">
+            <button onClick={successToast} className="btn btn-primary mt-10">
                 Borrow This Book
             </button>
-            <ToastContainer />
         </div>
     );
 };
