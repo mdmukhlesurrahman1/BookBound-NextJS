@@ -6,7 +6,7 @@ const Marq = () => {
             <span className="bg-primary text-white p-2 w-35 text-center font-bold">
                 New Arrivals
             </span>
-            <Marquee className="p-2">
+            <Marquee className="p-2" pauseOnHover>
                 <ul className="flex">
                     <li className="text-success mr-20">
                         New Book: Foundations of Quantum Physics. by Charles E.
