@@ -14,6 +14,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { BsGoogle } from "react-icons/bs";
+import { createAuthClient } from "better-auth/react";
 
 export default function SignUpPage() {
     const router = useRouter();
@@ -36,10 +37,16 @@ export default function SignUpPage() {
         if (!error) {
             router.push("/login");
             toast.success("Register Successfully!");
-        }
-        else{
+        } else {
             toast.error(error.message);
         }
+    };
+
+    const authClient = createAuthClient();
+    const signInWithGoogle = async () => {
+        const data = await authClient.signIn.social({
+            provider: "google",
+        });
     };
 
     return (
@@ -132,7 +139,10 @@ export default function SignUpPage() {
             </p>
 
             <p className="mt-4 text-center font-semibold">-or-</p>
-            <button className="btn btn-outline btn-primary mt-4 rounded-full w-70 md:w-80 mx-auto">
+            <button
+                onClick={signInWithGoogle}
+                className="btn btn-outline btn-primary mt-4 rounded-full w-70 md:w-80 mx-auto"
+            >
                 <BsGoogle /> Login with Google
             </button>
         </Card>

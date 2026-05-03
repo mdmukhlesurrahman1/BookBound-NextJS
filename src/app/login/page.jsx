@@ -9,6 +9,7 @@ import {
     Label,
     TextField,
 } from "@heroui/react";
+import { createAuthClient } from "better-auth/react";
 import Link from "next/link";
 import { BsGoogle } from "react-icons/bs";
 import { toast } from "react-toastify";
@@ -30,6 +31,13 @@ export default function SignInPage() {
         } else {
             toast.error(error.message);
         }
+    };
+
+    const authClient = createAuthClient();
+    const signInWithGoogle = async () => {
+        const data = await authClient.signIn.social({
+            provider: "google",
+        });
     };
 
     return (
@@ -97,7 +105,10 @@ export default function SignInPage() {
             </p>
 
             <p className="mt-4 text-center font-semibold">-or-</p>
-            <button className="btn btn-outline btn-primary mt-4 rounded-full w-70 md:w-80 mx-auto">
+            <button
+                onClick={signInWithGoogle}
+                className="btn btn-outline btn-primary mt-4 rounded-full w-70 md:w-80 mx-auto"
+            >
                 <BsGoogle /> Login with Google
             </button>
         </Card>

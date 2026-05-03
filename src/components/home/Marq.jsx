@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 const Marq = () => {
     return (
         <div className="border-2 border-base-300 rounded-sm shadow w-11/12 max-w-7xl my-5 flex overflow-hidden">
-            <span className="bg-primary text-white p-2 w-35 text-center font-bold">
+            <span className="bg-primary text-white p-2 w-35 text-center font-bold text-xs md:text-sm flex items-center justify-center">
                 New Arrivals
             </span>
             <Marquee className="p-2" pauseOnHover>
