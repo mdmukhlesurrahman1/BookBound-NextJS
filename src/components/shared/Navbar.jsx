@@ -75,7 +75,7 @@ const Navbar = () => {
                                     referrerPolicy="no-referrer"
                                 />
                                 <Avatar.Fallback>
-                                    {user?.name[0]}
+                                    {user?.name[0].toUpperCase()}
                                 </Avatar.Fallback>
                             </Avatar>
                             <button onClick={handleSignOut} className="btn btn-error text-white">
