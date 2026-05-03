@@ -1,6 +1,8 @@
 import Banner from "@/components/home/Banner";
 import Featured from "@/components/home/Featured";
 import Marq from "@/components/home/Marq";
+import Pricing from "@/components/home/Pricing";
+import Statistics from "@/components/home/Statistics";
 
 
 
@@ -10,6 +12,8 @@ export default function Home() {
       <Banner />
       <Marq />
       <Featured />
+      <Statistics />
+      <Pricing />
     </div>
   );
 }
