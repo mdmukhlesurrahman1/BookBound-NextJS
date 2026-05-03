@@ -2,7 +2,7 @@
 import { authClient } from "@/lib/auth-client";
 import { Avatar } from "@heroui/react";
 import Link from "next/link";
-import { format } from "date-fns";
+
 
 const MyProfile = () => {
     const userData = authClient.useSession();
